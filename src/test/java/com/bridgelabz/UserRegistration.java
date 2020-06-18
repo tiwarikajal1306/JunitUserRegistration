@@ -10,20 +10,38 @@ public class UserRegistration {
 
 
     @Test
-    public void fistNameValidation_True_ifFirstNameProper() {
+    public void firstNameValidation_True_ifFirstNameProper() {
         result = junitUserRegistration.validFirstName("Kajal");
         Assert.assertTrue(result);
     }
 
     @Test
-    public void fistNameValidation_False_NotContainMinimumCharacter() {
+    public void firstNameValidation_False_NotContainMinimumCharacter() {
         result = junitUserRegistration.validFirstName("Ka");
         Assert.assertTrue(result);
     }
 
     @Test
-    public void fistNameValidation_False_NotContainUpperCaseLetter() {
+    public void firstNameValidation_False_NotContainUpperCaseLetter() {
         result = junitUserRegistration.validFirstName("kaju");
+        Assert.assertTrue(result);
+    }
+
+    @Test
+    public void lastNameValidation_True_ifLastNameProper() {
+        result = junitUserRegistration.validFirstName("Tiwari");
+        Assert.assertTrue(result);
+    }
+
+    @Test
+    public void lastNameValidation_False_NotContainMinimumCharacter() {
+        result = junitUserRegistration.validFirstName("Ti");
+        Assert.assertTrue(result);
+    }
+
+    @Test
+    public void lastNameValidation_False_NotContainUpperCaseLetter() {
+        result = junitUserRegistration.validFirstName("tiwari");
         Assert.assertTrue(result);
     }
 
