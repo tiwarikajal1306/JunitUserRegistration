@@ -21,6 +21,7 @@ public class UserRegistration {
         this.keys = keys;
         this.values = values;
     }
+    // test validation for first Name
     @Test
     public void firstNameValidation_True_ifFirstNameProper() {
         result = junitUserRegistration.validFirstName("Kajal");
@@ -38,7 +39,7 @@ public class UserRegistration {
         result = junitUserRegistration.validFirstName("kaju");
         Assert.assertTrue(result);
     }
-
+//test validation for last name
     @Test
     public void lastNameValidation_True_ifLastNameProper() {
         result = junitUserRegistration.validFirstName("Tiwari");
@@ -56,6 +57,7 @@ public class UserRegistration {
         result = junitUserRegistration.validFirstName("tiwari");
         Assert.assertTrue(result);
     }
+    //test validation for email
     @Parameterized.Parameters
     public static Collection<Object[]> testForEmail(){
         Object[][] testForEmails = new Object[][]{
@@ -82,7 +84,7 @@ public class UserRegistration {
         boolean result = junitUserRegistration.validateEmail(keys);
         Assert.assertEquals(result,values);
     }
-
+// test validation for mobile number
     @Parameterized.Parameters
     public static Collection<Object[]> checkValidNumber(){
         Object[][] testingMobile = new Object[][]{
@@ -99,7 +101,7 @@ public class UserRegistration {
         boolean result = junitUserRegistration.validMobileNumber(keys);
         Assert.assertEquals(result,values);
     }
-
+//test validation for password
     @Parameterized.Parameters
     public static Collection<Object[]> testForPassword(){
         Object[][] testingPasswords = new Object[][]{
