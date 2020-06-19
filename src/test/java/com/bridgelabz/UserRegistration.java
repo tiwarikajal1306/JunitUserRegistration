@@ -104,7 +104,9 @@ public class UserRegistration {
     public static Collection<Object[]> testForPassword(){
         Object[][] testingPasswords = new Object[][]{
                 {"Kaju14355", true},
-                {"kaju", false}
+                {"kaju", false},
+                {"kaju12345" , false},
+                {"kaJu1345" , true}
         };
         return Arrays.asList(testingPasswords);
     }
