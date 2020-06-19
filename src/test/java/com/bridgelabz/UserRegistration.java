@@ -83,5 +83,22 @@ public class UserRegistration {
         Assert.assertEquals(result,values);
     }
 
+    @Parameterized.Parameters
+    public static Collection<Object[]> checkValidNumber(){
+        Object[][] testingMobile = new Object[][]{
+                {"91 9822917991", true},
+                {"91   9822917991", false},
+                {"913 9822917991", true},
+                {"9822917991", false}
+        };
+        return Arrays.asList(testingMobile);
+    }
+
+    @Test
+    public void validateMobileNumber() {
+        boolean result = junitUserRegistration.validMobileNumber(keys);
+        Assert.assertEquals(result,values);
+    }
+
 
     }

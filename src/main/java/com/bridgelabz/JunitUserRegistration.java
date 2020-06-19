@@ -8,7 +8,12 @@ public class JunitUserRegistration {
 
 
     public boolean validateEmail(String emailid) {
-     return emailid.matches ("^[a-zA-Z0-9]+(([._+-]?)[a-zA-Z0-9]+)*@[a-zA-Z0-9]+.[a-zA-Z]{2,4}([.][a-zA-Z]{2,3})*$");
+        return emailid.matches("^[a-zA-Z0-9]+(([._+-]?)[a-zA-Z0-9]+)*@[a-zA-Z0-9]+.[a-zA-Z]{2,4}([.][a-zA-Z]{2,3})*$");
 
     }
-}
+    public boolean validMobileNumber(String number) {
+        return number.matches("^[1-9]+[0-9]+[\\ ]?+[1-9]{1}[0-9]{9}$");
+
+        }
+    }
+

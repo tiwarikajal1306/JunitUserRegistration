@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.UserRegistration" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-06-19T04:10:47" hostname="KAJAL-LAPTOP" time="0.034">
+<testsuite name="com.bridgelabz.UserRegistration" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-06-19T04:23:48" hostname="KAJAL-LAPTOP" time="0.003">
   <properties/>
-  <testcase name="validateEmail[0]" classname="com.bridgelabz.UserRegistration" time="0.023"/>
-  <testcase name="validateEmail[1]" classname="com.bridgelabz.UserRegistration" time="0.002"/>
-  <testcase name="validateEmail[2]" classname="com.bridgelabz.UserRegistration" time="0.0"/>
-  <testcase name="validateEmail[3]" classname="com.bridgelabz.UserRegistration" time="0.001"/>
-  <testcase name="validateEmail[4]" classname="com.bridgelabz.UserRegistration" time="0.0"/>
-  <testcase name="validateEmail[5]" classname="com.bridgelabz.UserRegistration" time="0.0"/>
-  <testcase name="validateEmail[6]" classname="com.bridgelabz.UserRegistration" time="0.0"/>
-  <testcase name="validateEmail[7]" classname="com.bridgelabz.UserRegistration" time="0.0"/>
-  <testcase name="validateEmail[8]" classname="com.bridgelabz.UserRegistration" time="0.0"/>
-  <testcase name="validateEmail[9]" classname="com.bridgelabz.UserRegistration" time="0.0"/>
-  <testcase name="validateEmail[10]" classname="com.bridgelabz.UserRegistration" time="0.0"/>
-  <testcase name="validateEmail[11]" classname="com.bridgelabz.UserRegistration" time="0.001"/>
-  <testcase name="validateEmail[12]" classname="com.bridgelabz.UserRegistration" time="0.0"/>
-  <testcase name="validateEmail[13]" classname="com.bridgelabz.UserRegistration" time="0.0"/>
+  <testcase name="validateMobileNumber[0]" classname="com.bridgelabz.UserRegistration" time="0.002"/>
+  <testcase name="validateMobileNumber[1]" classname="com.bridgelabz.UserRegistration" time="0.0"/>
+  <testcase name="validateMobileNumber[2]" classname="com.bridgelabz.UserRegistration" time="0.0"/>
+  <testcase name="validateMobileNumber[3]" classname="com.bridgelabz.UserRegistration" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
