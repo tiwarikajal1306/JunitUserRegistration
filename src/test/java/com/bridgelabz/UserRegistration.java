@@ -106,7 +106,8 @@ public class UserRegistration {
                 {"Kaju14355", true},
                 {"kaju", false},
                 {"kaju12345" , false},
-                {"kaJu1345" , true}
+                {"kaJu1345" , true},
+                {"KajalTiwari" , false}
         };
         return Arrays.asList(testingPasswords);
     }

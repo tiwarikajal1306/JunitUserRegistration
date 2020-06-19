@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.UserRegistration" tests="4" skipped="0" failures="2" errors="0" timestamp="2020-06-19T04:48:39" hostname="KAJAL-LAPTOP" time="0.006">
+<testsuite name="com.bridgelabz.UserRegistration" tests="4" skipped="0" failures="2" errors="0" timestamp="2020-06-19T04:54:56" hostname="KAJAL-LAPTOP" time="0.005">
   <properties/>
-  <testcase name="validatePassword[0]" classname="com.bridgelabz.UserRegistration" time="0.004">
+  <testcase name="validatePassword[0]" classname="com.bridgelabz.UserRegistration" time="0.003">
     <failure message="java.lang.AssertionError: expected:&lt;false&gt; but was:&lt;true&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;false&gt; but was:&lt;true&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
 	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.bridgelabz.UserRegistration.validatePassword(UserRegistration.java:117)
+	at com.bridgelabz.UserRegistration.validatePassword(UserRegistration.java:118)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -66,13 +66,13 @@
 </failure>
   </testcase>
   <testcase name="validatePassword[1]" classname="com.bridgelabz.UserRegistration" time="0.0"/>
-  <testcase name="validatePassword[2]" classname="com.bridgelabz.UserRegistration" time="0.001">
+  <testcase name="validatePassword[2]" classname="com.bridgelabz.UserRegistration" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;false&gt; but was:&lt;true&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;false&gt; but was:&lt;true&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
 	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.bridgelabz.UserRegistration.validatePassword(UserRegistration.java:117)
+	at com.bridgelabz.UserRegistration.validatePassword(UserRegistration.java:118)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
