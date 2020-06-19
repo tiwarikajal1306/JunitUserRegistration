@@ -17,7 +17,7 @@ public class JunitUserRegistration {
         }
 
     public boolean validPassword(String password) {
-        return password.matches("^((?=.*([0-9])(?=.*[A-Z])[a-zA-Z]{8,}))$");
+        return password.matches("^((?=.*([0-9])(?=.*[A-Z])(?=.*[!@#$%^&*]{1})[a-zA-Z]{8,}))$");
     }
     }
 
